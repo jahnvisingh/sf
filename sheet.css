@@ -1,0 +1,124 @@
+html{width:100%;}
+body {margin:0;
+	  padding:0;
+	  width:100%;
+	  min-height:600px;
+	  height:100%;
+	  background-repeat:repeat-x;
+	  }
+#header {top:0px;
+         left:0px;
+		 background-color:#3b5998;
+		 margin:auto;
+		 padding:0;
+		 width:100%;
+		 min-width:1366px;
+        height:110px;
+		position:relative;}
+#container{display:block;
+           height:100%;
+		   position:absolute;
+		   left:50%;
+		   transform:translate(-50%,0);
+		   width:100%;
+           max-width:1366px;}
+
+
+#img{position:absolute;
+     top:0px;
+	 left:40px;}
+	 
+#email{font-size:15px;
+       position:absolute;
+       left:50em;
+       top:1em;
+       color:white;
+	   }
+
+#password{font-size:15px;
+          position:absolute;
+          top:0.8em;
+          left:65em;
+          color:white;
+		  display:block;
+		  width:390px;
+		  max-height:59px;}
+
+#password input[type=submit]
+   {background-color:#3b5998;
+    color:white;
+    padding:4px 4px;
+    border:1px solid black;
+    border-radius:0px;
+	}
+#middle{position: relative;
+        top:-30px;
+		left:0px;
+		background:linear-gradient(to bottom, White,LightSteelBlue);
+		width:100%;
+		min-width:1366px;
+		height:650px;
+		}
+#mid{display:block;
+           height:100%;
+		   position:absolute;
+		   left:50%;
+		   transform:translate(-50%,0);
+		   width:100%;
+           max-width:1366px;}
+          
+
+#img2 {position:absolute;
+     top:6em;
+     left:7em;
+	 color:#00008B;
+	 font-family:arial;
+	 width:600px;}
+#form{position:absolute;
+      left:48em;
+      top:3em;
+	  width:600px;
+      }
+#form input[type=text]
+{border-radius:4px;
+font-size:20px;
+padding:4px 4px;
+color:#C0C0C0;
+border:2px solid #C0C0C0;
+width:150px;
+}
+#form input[type=submit]
+{background-color:green;
+color:white;
+padding:10px 10px;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+#footer {position:relative;
+         top:-100px;
+		 left:0px;
+		 height:100px;
+		 margin-bottom:0;
+		 margin-left:0;}
+#fooot{   display:block;
+           height:100%;
+		   position:absolute;
+		   left:50%;
+		   transform:translate(-50%,0);
+		   width:100%;
+           max-width:1366px;}
+#foot{ position:absolute;
+       width:600px;
+	   min-width:600px;
+	   top:100px;
+	   left:200px;
+	   height:60px;
+	   color:#6a5acd;}
+#foot a{color:#6a5acd;
+        text-decoration:none;
+		padding-left:10px;
+		padding-right:10px;
+		}
+#foot a:hover{text-decoration:underline;}
+ hr{border-top:1px solid #b0c4de;}
